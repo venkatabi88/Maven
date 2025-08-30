@@ -12,7 +12,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.12</version> <!-- Updated artifact -->
+      <version>4.12</version>
       <scope>test</scope>
     </dependency>
 
@@ -41,25 +41,21 @@
     <dependency>
       <groupId>javax.servlet</groupId>
       <artifactId>javax.servlet-api</artifactId>
-      <version>4.0.1</version> <!-- Updated version -->
-      <scope>provided</scope> <!-- Use provided scope for container-provided dependencies -->
+      <version>4.0.1</version>
+      <scope>provided</scope>
     </dependency>
 
-    <!-- JSP API Dependency (updated) -->
+    <!-- JSP API Dependency (updated version) -->
     <dependency>
       <groupId>javax.servlet.jsp</groupId>
       <artifactId>javax.servlet.jsp-api</artifactId>
-      <version>2.3</version> <!-- Updated version -->
+      <version>2.3.3</version> <!-- Updated version -->
       <scope>provided</scope>
     </dependency>
   </dependencies>
 
-  <!-- Repositories for Java EE dependencies if needed -->
+  <!-- Remove the extra repository -->
   <repositories>
-    <repository>
-      <id>java.net</id>
-      <url>https://maven.java.net/content/repositories/public/</url>
-    </repository>
+    <!-- Removed java.net repository -->
   </repositories>
 </project>
-
